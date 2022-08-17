@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Mpro-Light";
+    src: url(../assents/MyriadPro-Light.woff);
+}
+
+body {
+    font-family: "Mpro-Light";
+    font-size: 16px;
+    background: #F3F3F3;
+}
+
+#cabecalho {
+    background: #606060;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+#menu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 25px;
+    font-size: 1.1em;
+}
+
+#principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+}
+
+#prin-1 {
+    margin-left: 100px;
+}
+
+#prin-1 h1 {
+    color: black;
+    font-weight: 300;
+    font-size: 3.5em;
+}
+
+#prin-1 h2 {
+    color: black;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 300;
+}
+
+#prin-1, .saiba-mais {
+    color:#3E89C8;
+    text-align: right;
+    font-weight: 300;
+    font-size: 1.1em;
+}
+
+#prin-2 {
+    margin-left: 100px;
+}
+
